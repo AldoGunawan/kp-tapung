@@ -1,8 +1,8 @@
 import * as z from "zod";
 
+import { prisma } from "@/app/lib/prisma";
 import { hash } from "bcrypt";
 import { NextResponse } from "next/server";
-import { db } from "../../route";
 
 const userSchema = z.object({
   username: z
@@ -29,7 +29,7 @@ export async function POST(req: Request) {
     const body = await req.json();
     const { email, username, password } = userSchema.parse(body);
     ///checking email
-    const existingUserByEmail = await db.user.findUnique({
+    const existingUserByEmail = await prisma.user.findUnique({
       where: {
         email: email,
       },
@@ -42,7 +42,7 @@ export async function POST(req: Request) {
     }
 
     ///checking username
-    const existingUserByUsername = await db.user.findUnique({
+    const existingUserByUsername = await prisma.user.findUnique({
       where: {
         username: username,
       },
@@ -55,7 +55,7 @@ export async function POST(req: Request) {
     }
 
     const hashedPassword = await hash(password, 10);
-    const newUser = await db.user.create({
+    const newUser = await prisma.user.create({
       data: {
         email,
         username,
@@ -64,7 +64,6 @@ export async function POST(req: Request) {
       },
     });
 
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const { password: newUserPassword, ...rest } = newUser;
 
     return NextResponse.json({
@@ -72,7 +71,6 @@ export async function POST(req: Request) {
       message: "User created successfully",
       status: 200,
     });
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
   } catch (error) {
     return NextResponse.json({ message: "Error" }, { status: 500 });
   }

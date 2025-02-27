@@ -20,7 +20,7 @@ export async function GET() {
         title: true,
         content: true,
         imageUrl: true,
-        createdAt: true, // Tambahkan ini
+        createdAt: true,
       },
     });
     return NextResponse.json({ posts });
