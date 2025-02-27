@@ -38,10 +38,11 @@
     "@types/node": "^20.17.19",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "dotenv": "^16.4.7",
     "eslint": "^9",
     "eslint-config-next": "15.1.7",
     "postcss": "^8",
-    "prisma": "^6.4.0",
+    "prisma": "^6.4.1",
     "tailwindcss": "^3.4.1",
     "tsx": "^4.19.3",
     "typescript": "^5.7.3"
