@@ -1,8 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
 
 import { getServerSession } from "next-auth";
+import { prisma } from "../../lib/prisma";
 import { authOptions } from "../lib/auth";
-import { prisma } from "../lib/prisma";
 
 // ✅ Cek apakah user sudah login
 export const GET = async (req: NextRequest) => {

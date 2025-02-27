@@ -1,15 +1,11 @@
 import { NextRequest, NextResponse } from "next/server";
 
-import { PrismaClient } from "@prisma/client";
+import { prisma } from "@/lib/prisma";
 import { createClient } from "@supabase/supabase-js";
 
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL!;
 const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!;
 const supabase = createClient(supabaseUrl, supabaseKey);
-
-const globalForPrisma = global as unknown as { prisma?: PrismaClient };
-export const prisma = globalForPrisma.prisma || new PrismaClient();
-if (process.env.NODE_ENV !== "production") globalForPrisma.prisma = prisma;
 
 export async function GET() {
   try {
@@ -49,10 +45,10 @@ export async function POST(req: NextRequest) {
 
     let imageUrl = "";
     if (imageFile) {
-      const fileExt = "jpg"; // Anggap jpg sementara
+      const fileExt = "jpg";
       const fileName = `images/${Date.now()}.${fileExt}`;
       const arrayBuffer = await imageFile.arrayBuffer();
-      const buffer = Buffer.from(arrayBuffer);
+      const buffer = new Uint8Array(arrayBuffer);
 
       const { data, error } = await supabase.storage
         .from("uploads")
@@ -85,9 +81,8 @@ export async function POST(req: NextRequest) {
 export async function DELETE(req: NextRequest) {
   try {
     const url = new URL(req.url);
-    const id = Number(url.searchParams.get("id"));
-
-    if (!id) {
+    const id = parseInt(url.searchParams.get("id") || "", 10);
+    if (isNaN(id)) {
       return NextResponse.json({ message: "ID tidak valid" }, { status: 400 });
     }
 
@@ -114,7 +109,7 @@ export async function PUT(req: NextRequest) {
     }
 
     const post = await prisma.post.update({
-      where: { id: Number(id) },
+      where: { id: parseInt(id, 10) },
       data: { title, content, imageUrl },
     });
 
