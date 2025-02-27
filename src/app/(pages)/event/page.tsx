@@ -1,7 +1,7 @@
+import Item from "@/app/item"; // Pastikan path ini benar
 import { authOptions } from "@/app/lib/auth";
-import { getServerSession } from "next-auth";
-import Link from 'next/link';
-import Item from './../../item';
+import { getServerSession } from "next-auth/next";
+import Link from "next/link";
 
 interface Post {
   id: number;
@@ -13,17 +13,26 @@ interface Post {
 }
 
 const getPost = async () => {
-  const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/post`);
-  const json = await res.json();
-  return json;
+  try {
+    const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/post`, {
+      cache: "no-store",
+    });
+    if (!res.ok) {
+      throw new Error("Failed to fetch posts");
+    }
+    return await res.json();
+  } catch (error) {
+    console.error("Error fetching posts:", error);
+    return { posts: [] };
+  }
 };
 
 const EventPage = async () => {
-  const posts = await getPost();
-  const session = await getServerSession(authOptions);
+  const [posts, session] = await Promise.all([getPost(), getServerSession(authOptions)]);
   const isAdmin = session?.user?.role === "admin";
+
   return (
-    <div className='p-5 rounded-md border-b leading-9 max-w-7xl mx-auto'>
+    <div className="p-5 rounded-md border-b leading-9 max-w-7xl mx-auto">
       {isAdmin && (
         <Link 
           href="/event/create"
@@ -33,9 +42,12 @@ const EventPage = async () => {
         </Link>
       )}
       <div className="list-container">
-      {posts?.posts?.map((post: Post, index: number) => (
-        <Item key={post.id} post={post} />))}
-        </div>
+        {Array.isArray(posts?.posts) && posts.posts.length > 0 ? (
+          posts.posts.map((post: Post) => <Item key={post.id} post={post} />)
+        ) : (
+          <p className="text-center text-gray-500">No events found</p>
+        )}
+      </div>
     </div>
   );
 };
