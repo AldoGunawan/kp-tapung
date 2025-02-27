@@ -1,9 +1,7 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 import { NextRequest, NextResponse } from "next/server";
 
 import { PrismaClient } from "@prisma/client";
 import { hash } from "bcrypt";
-import { db } from "../route";
 
 const prisma = new PrismaClient();
 
@@ -72,7 +70,7 @@ export async function PUT(req: Request) {
       );
     }
 
-    const updatedUser = await db.user.update({
+    const updatedUser = await prisma.user.update({
       where: { id },
       data: { role },
     });

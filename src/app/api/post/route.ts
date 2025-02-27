@@ -38,7 +38,7 @@ export async function POST(req: NextRequest) {
     const formData = await req.formData();
     const title = formData.get("title") as string;
     const content = formData.get("content") as string;
-    const imageFile = formData.get("imageUrl") as File | null;
+    const imageFile = formData.get("imageUrl") as Blob | null;
 
     if (!title || !content) {
       return NextResponse.json(
@@ -49,22 +49,14 @@ export async function POST(req: NextRequest) {
 
     let imageUrl = "";
     if (imageFile) {
-      const fileExt = imageFile.name.split(".").pop()?.toLowerCase();
-      const allowedExts = ["jpg", "jpeg", "png", "webp"];
-      if (!allowedExts.includes(fileExt || "")) {
-        return NextResponse.json(
-          { message: "Format gambar tidak valid!" },
-          { status: 400 }
-        );
-      }
-
+      const fileExt = "jpg"; // Anggap jpg sementara
       const fileName = `images/${Date.now()}.${fileExt}`;
+      const arrayBuffer = await imageFile.arrayBuffer();
+      const buffer = Buffer.from(arrayBuffer);
+
       const { data, error } = await supabase.storage
         .from("uploads")
-        .upload(fileName, imageFile, {
-          cacheControl: "3600",
-          upsert: true,
-        });
+        .upload(fileName, buffer, { contentType: "image/jpeg" });
 
       if (error) {
         console.error("Upload gagal:", error);

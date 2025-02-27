@@ -18,10 +18,9 @@ const getPost = async () => {
   return json;
 };
 
-const EventPage = async (props) => {
+const EventPage = async () => {
   const posts = await getPost();
   const session = await getServerSession(authOptions);
-  console.log(session);
   const isAdmin = session?.user?.role === "admin";
   return (
     <div className='p-5 rounded-md border-b leading-9 max-w-7xl mx-auto'>

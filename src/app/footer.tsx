@@ -25,7 +25,7 @@ const Footer = () => {
       try {
         const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/post`);
         const json = await res.json();
-        setLatestPosts(json.posts.slice(0, 2)); // Ambil 2 berita terbaru
+        setLatestPosts(json.posts.slice(0, 2));
       } catch (error) {
         console.error("Error fetching latest posts:", error);
       }
