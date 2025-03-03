@@ -2,22 +2,10 @@
 
 import * as z from 'zod';
 
-import {
-  Form,
-  FormControl,
-  FormField,
-  FormItem,
-  FormLabel,
-  FormMessage,
-} from '../ui/form';
-
 import { zodResolver } from '@hookform/resolvers/zod';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { useForm } from 'react-hook-form';
-import GoogleSignInButton from '../GoogleSignInButton';
-import { Button } from '../ui/button';
-import { Input } from '../ui/input';
 import styles from './SignUp.module.scss';
 
 const FormSchema = z
@@ -27,7 +15,7 @@ const FormSchema = z
     password: z
       .string()
       .min(1, 'Password is required')
-      .min(8, 'Password must have more than 8 characters'),
+      .min(5, 'Password must have more than 5 characters'),
     confirmPassword: z.string().min(1, 'Password confirmation is required'),
   })
   .refine((data) => data.password === data.confirmPassword, {
@@ -37,27 +25,19 @@ const FormSchema = z
 
 const SignUpForm = () => {
   const router = useRouter();
-  const form = useForm<z.infer<typeof FormSchema>>({
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm<z.infer<typeof FormSchema>>({
     resolver: zodResolver(FormSchema),
-    defaultValues: {
-      username: '',
-      email: '',
-      password: '',
-      confirmPassword: '',
-    },
   });
 
   const onSubmit = async (values: z.infer<typeof FormSchema>) => {
     const response = await fetch('/api/users', {
       method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        username: values.username,
-        email: values.email,
-        password: values.password,
-      }),
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(values),
     });
 
     if (response.ok) {
@@ -71,70 +51,60 @@ const SignUpForm = () => {
     <div className={styles.signUpContainer}>
       <div className={styles.signUpCard}>
         <h2 className={styles.signUpTitle}>Sign Up</h2>
-        <Form {...form}>
-          <form onSubmit={form.handleSubmit(onSubmit)} className={styles.form}>
-            <FormField
-              control={form.control}
-              name='username'
-              render={({ field }) => (
-                <FormItem>
-                  <FormLabel>Username</FormLabel>
-                  <FormControl>
-                    <Input className={styles.inputField} placeholder='johndoe' {...field} />
-                  </FormControl>
-                  <FormMessage />
-                </FormItem>
-              )}
+        <form onSubmit={handleSubmit(onSubmit)} className={styles.form}>
+          <div className={styles.formItem}>
+            <label className={styles.formLabel}>Username</label>
+            <input
+              className={styles.inputField}
+              placeholder="Aldo K"
+              {...register('username')}
             />
-            <FormField
-              control={form.control}
-              name='email'
-              render={({ field }) => (
-                <FormItem>
-                  <FormLabel>Email</FormLabel>
-                  <FormControl>
-                    <Input className={styles.inputField} placeholder='mail@example.com' {...field} />
-                  </FormControl>
-                  <FormMessage />
-                </FormItem>
-              )}
+            {errors.username && <p className={styles.errorText}>{errors.username.message}</p>}
+          </div>
+
+          <div className={styles.formItem}>
+            <label className={styles.formLabel}>Email</label>
+            <input
+              className={styles.inputField}
+              placeholder="aldo@gmail.com"
+              {...register('email')}
             />
-            <FormField
-              control={form.control}
-              name='password'
-              render={({ field }) => (
-                <FormItem>
-                  <FormLabel>Password</FormLabel>
-                  <FormControl>
-                    <Input className={styles.inputField} type='password' placeholder='Enter your password' {...field} />
-                  </FormControl>
-                  <FormMessage />
-                </FormItem>
-              )}
+            {errors.email && <p className={styles.errorText}>{errors.email.message}</p>}
+          </div>
+
+          <div className={styles.formItem}>
+            <label className={styles.formLabel}>Password</label>
+            <input
+              className={styles.inputField}
+              type="password"
+              placeholder="Enter your password"
+              {...register('password')}
             />
-            <FormField
-              control={form.control}
-              name='confirmPassword'
-              render={({ field }) => (
-                <FormItem>
-                  <FormLabel>Re-Enter your password</FormLabel>
-                  <FormControl>
-                    <Input className={styles.inputField} type='password' placeholder='Re-Enter your password' {...field} />
-                  </FormControl>
-                  <FormMessage />
-                </FormItem>
-              )}
+            {errors.password && <p className={styles.errorText}>{errors.password.message}</p>}
+          </div>
+
+          <div className={styles.formItem}>
+            <label className={styles.formLabel}>Re-Enter your password</label>
+            <input
+              className={styles.inputField}
+              type="password"
+              placeholder="Re-Enter your password"
+              {...register('confirmPassword')}
             />
-            <Button className={styles.signUpButton} type='submit'>
-              Sign up
-            </Button>
-          </form>
-        </Form>
+            {errors.confirmPassword && <p className={styles.errorText}>{errors.confirmPassword.message}</p>}
+          </div>
+
+          <button className={styles.signUpButton} type="submit">
+            Sign up
+          </button>
+        </form>
+
         <div className={styles.separator}>or</div>
-        <GoogleSignInButton>Sign up with Google</GoogleSignInButton>
         <p className={styles.signUpText}>
           Already have an account?&nbsp;
-          <Link className={styles.signInLink} href='/api/auth/sign-in'>Sign in</Link>
+          <Link className={styles.signInLink} href="/api/auth/sign-in">
+            Sign in
+          </Link>
         </p>
       </div>
     </div>

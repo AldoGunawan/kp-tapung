@@ -7,7 +7,6 @@ const Footer = () => {
     <footer className="bg-gray-900 text-white py-6 font-segoe">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         
-        {/* Logo & Deskripsi */}
         <div>
           <img src="/logo.png" alt="Logo Sekolah"  />
           <p className="mt-3 text-gray-400 text-sm">
@@ -15,18 +14,16 @@ const Footer = () => {
           </p>
         </div>
 
-        {/* About Us */}
         <div>
-  <h3 className="font-semibold text-sm">Contact Us</h3>
-  <ul className="mt-2 text-gray-400 text-xs space-y-1">
-    <li className="hover:text-white cursor-pointer flex items-center space-x-2">
-      <Mail size={20} />
-      <span>esmpn10tapung@gmail.com</span>
-    </li>
-  </ul>
-</div>
-
-        {/* Explore */}
+        <h3 className="font-semibold text-sm">Contact Us</h3>
+        <ul className="mt-2 text-gray-400 text-xs space-y-1">
+          <li className="hover:text-white cursor-pointer flex items-center space-x-2">
+          <Mail size={20} />
+            <span>esmpn10tapung@gmail.com</span>
+          </li>
+        </ul>
+          </div>
+          
         <div>
           <h3 className="font-semibold text-sm">Follow Us</h3>
           <div className="mt-2 text-gray-400 text-xs space-y-3">

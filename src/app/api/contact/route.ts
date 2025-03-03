@@ -24,13 +24,8 @@ export async function POST(req: Request) {
         { status: 401 }
       );
     }
-
-    // Ambil email dari sesi user
     const { email } = session.user;
 
-    console.log("User Email:", email); // DEBUG: Cek apakah email tersedia
-
-    // Periksa apakah email valid
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(email)) {
       return NextResponse.json(
@@ -39,7 +34,6 @@ export async function POST(req: Request) {
       );
     }
 
-    // Periksa apakah email ini ada dalam database
     const user = await prisma.user.findUnique({
       where: { email },
     });

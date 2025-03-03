@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 "use client"
 
 import React, { useEffect } from 'react';
@@ -10,7 +11,7 @@ import styles from './Update.module.css';
 const Page = ({
   params,
 }: {
- params: Promise<{ id: string }>;
+ params: Promise<{ id: string }>
 }) => {
     const [title, setTitle] = React.useState('')
     const [content, setContent] = React.useState('')

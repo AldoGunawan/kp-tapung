@@ -18,7 +18,7 @@ const DetailPage = ({ params}: { params: Promise<{ id: string }> }) => {
 
     const getData = async () => {
         try {
-            const resolvedParams = await params; // Tunggu params jika berbentuk Promise
+            const resolvedParams = await params;
             const res = await fetch(`/api/post/${resolvedParams.id}`);
             if (!res.ok) throw new Error("Data not found");
 
