@@ -17,8 +17,8 @@ const AdminPage = () => {
   const router = useRouter();
   const [users, setUsers] = useState<User[]>([]);
   const [newUser, setNewUser] = useState({ email: "", username: "", password: "", role: "user" });
+  const [notification, setNotification] = useState<{ message: string; type: "success" | "error" | null }>({ message: "", type: null });
 
-  // Cek apakah pengguna adalah kepsek
   useEffect(() => {
     if (status === "loading") return;
     if (!session || session.user.role !== "KepalaSekolah") {
@@ -26,7 +26,6 @@ const AdminPage = () => {
     }
   }, [session, status, router]);
 
-  // Ambil data pengguna dari API
   useEffect(() => {
     fetchUsers();
   }, []);
@@ -41,49 +40,41 @@ const AdminPage = () => {
     }
   };
 
-  // Ubah role pengguna
   const handleChangeRole = async (id: number, newRole: string) => {
     try {
-      console.log("Mengubah role user:", id, "menjadi:", newRole);
-  
       const res = await fetch(`/api/users`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ id, role: newRole }),
       });
-  
-      console.log("Response status:", res.status);
-  
+
       if (!res.ok) {
         const errorData = await res.json();
         throw new Error(errorData.error || "Gagal mengubah role");
       }
-  
-      // **Langsung update state biar tidak perlu refresh halaman**
+
       setUsers((prevUsers) =>
-        prevUsers.map((user) =>
-          user.id === id ? { ...user, role: newRole } : user
-        )
+        prevUsers.map((user) => (user.id === id ? { ...user, role: newRole } : user))
       );
-  
-      console.log("Role berhasil diperbarui!");
+
+      setNotification({ message: "Update role berhasil!", type: "success" });
+      setTimeout(() => setNotification({ message: "", type: null }), 3000);
     } catch (error) {
-      console.error("Error:" + error);
+      console.error("Error:", error);
     }
   };
-  
 
-  // Hapus pengguna
   const handleDelete = async (id: number) => {
     try {
       await fetch(`/api/users?id=${id}`, { method: "DELETE" });
       fetchUsers();
+      setNotification({ message: "User berhasil dihapus!", type: "error" });
+      setTimeout(() => setNotification({ message: "", type: null }), 3000);
     } catch (error) {
       console.error("Gagal menghapus pengguna", error);
     }
   };
 
-  // Tambah pengguna baru
   const handleCreateUser = async () => {
     try {
       const res = await fetch("/api/users", {
@@ -94,6 +85,8 @@ const AdminPage = () => {
       if (res.ok) {
         fetchUsers();
         setNewUser({ email: "", username: "", password: "", role: "user" });
+        setNotification({ message: "User berhasil ditambahkan!", type: "success" });
+        setTimeout(() => setNotification({ message: "", type: null }), 3000);
       }
     } catch (error) {
       console.error("Gagal menambahkan pengguna", error);
@@ -101,87 +94,53 @@ const AdminPage = () => {
   };
 
   return (
-    <div className="p-5">
-      {/* Form Tambah User */}
-      <div className="border p-4 mb-4">
-        <h2 className="text-lg font-semibold mb-2">Tambah User</h2>
-        <input
-          type="text"
-          placeholder="Email"
-          value={newUser.email}
-          onChange={(e) => setNewUser({ ...newUser, email: e.target.value })}
-          className="border p-2 w-full mb-2"
-        />
-        <input
-          type="text"
-          placeholder="Username"
-          value={newUser.username}
-          onChange={(e) => setNewUser({ 
-            ...newUser, username: e.target.value })}
-          className="border p-2 w-full mb-2"
-        />
-        <input
-          type="password"
-          placeholder="Password"
-          value={newUser.password}
-          onChange={(e) => setNewUser({ 
-            ...newUser, password: e.target.value })}
-          className="border p-2 w-full mb-2"
-        />
-        <label htmlFor="new-user-role">Role</label>
-        <select
-          id="new-user-role"
-          value={newUser.role}
-          onChange={(e) => setNewUser({ 
-            ...newUser, role: e.target.value })}
-          className="border p-2 w-full mb-2"
-        >
+    <div className="p-6 max-w-4xl mx-auto">
+      {notification.message && (
+        <div className={`fixed top-10 left-1/2 transform -translate-x-1/2 p-4 rounded shadow-lg ${notification.type === "error" ? "bg-red-500 text-white" : "bg-green-500 text-white"}`}>
+          {notification.message}
+        </div>
+      )}
+      
+      <div className="mb-6 p-4 border rounded shadow">
+        <h2 className="text-xl font-bold mb-4">Tambah User</h2>
+        <input type="text" placeholder="Username" value={newUser.username} onChange={(e) => setNewUser({ ...newUser, username: e.target.value })} className="border p-2 w-full mb-2 rounded" />
+        <input type="text" placeholder="Email" value={newUser.email} onChange={(e) => setNewUser({ ...newUser, email: e.target.value })} className="border p-2 w-full mb-2 rounded" />
+        <input type="password" placeholder="Password" value={newUser.password} onChange={(e) => setNewUser({ ...newUser, password: e.target.value })} className="border p-2 w-full mb-2 rounded" />
+        <select value={newUser.role} onChange={(e) => setNewUser({ ...newUser, role: e.target.value })} className="border p-2 w-full mb-2 rounded">
           <option value="user">User</option>
           <option value="admin">Admin</option>
           <option value="KepalaSekolah">Kepala Sekolah</option>
         </select>
-        <button onClick={handleCreateUser} className="bg-blue-500 text-white p-2 rounded">
-          Tambah User
-        </button>
+        <button onClick={handleCreateUser} className="bg-blue-500 text-white p-2 rounded w-full">Tambah User</button>
       </div>
 
-      {/* Daftar Pengguna */}
-      <div>
-        <h2 className="text-lg font-semibold mb-2">Daftar Pengguna</h2>
-        <table className="w-full border">
+      <div className="overflow-x-auto">
+        <h2 className="text-xl font-bold mb-4">Daftar Pengguna</h2>
+        <table className="w-full border-collapse border border-gray-300">
           <thead>
-            <tr className="border-b">
-              <th className="p-2">ID</th>
-              <th className="p-2">Email</th>
-              <th className="p-2">Username</th>
-              <th className="p-2">Role</th>
-              <th className="p-2">Aksi</th>
+            <tr className="bg-gray-100 border-b">
+              <th className="p-2 border">ID</th>
+              <th className="p-2 border">Username</th>
+              <th className="p-2 border">Email</th>
+              <th className="p-2 border">Role</th>
+              <th className="p-2 border">Aksi</th>
             </tr>
           </thead>
           <tbody>
             {users.map((user) => (
               <tr key={user.id} className="border-b">
-                <td className="p-2">{user.id}</td>
-                <td className="p-2">{user.email}</td>
-                <td className="p-2">{user.username}</td>
-                <td className="p-2">
-                  <select
-                    defaultValue={user.role} // Mencegah error saat render awal
-                    onChange={(e) => handleChangeRole(user.id, e.target.value)}
-                    className="border p-1"
-                  >
+                <td className="p-2 border">{user.id}</td>
+                <td className="p-2 border">{user.username}</td>
+                <td className="p-2 border">{user.email}</td>
+                <td className="p-2 border">
+                  <select defaultValue={user.role} onChange={(e) => handleChangeRole(user.id, e.target.value)} className="border p-1 rounded">
                     <option value="user">User</option>
                     <option value="admin">Admin</option>
                     <option value="KepalaSekolah">Kepala Sekolah</option>
                   </select>
                 </td>
-                <td className="p-2">
-                  <button
-                    onClick={() => handleDelete(user.id)}
-                    className="bg-red-500 text-white p-1 rounded"
-                  >
-                    Delete
-                  </button>
+                <td className="p-2 border">
+                  <button onClick={() => handleDelete(user.id)} className="bg-red-500 text-white p-1 rounded">Delete</button>
                 </td>
               </tr>
             ))}

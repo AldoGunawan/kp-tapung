@@ -61,9 +61,11 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground;
+    background: linear-gradient(135deg, #f9f9f9, #e3eaf2);
+    font-family: 'Segoe UI', sans-serif;
   }
 }
+  
 
 .post-content {
   font-size: 0.875rem; /* text-sm */
@@ -84,4 +86,10 @@
   text-align: center;
   margin: 1.25rem 0; /* my-5 */
   font-family: "Segoe UI", Arial, sans-serif;
+}
+
+@import url('https://fonts.cdnfonts.com/css/segoe-ui');
+
+body {
+  font-family: 'Segoe UI', sans-serif;
 }

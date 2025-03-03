@@ -8,25 +8,17 @@ const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!;
 const supabase = createClient(supabaseUrl, supabaseKey);
 
 export async function GET() {
-  try {
-    const posts = await prisma.post.findMany({
-      orderBy: { createdAt: "desc" },
-      select: {
-        id: true,
-        title: true,
-        content: true,
-        imageUrl: true,
-        createdAt: true,
-      },
-    });
-    return NextResponse.json({ posts });
-  } catch (error) {
-    console.error("Error GET posts:", error);
-    return NextResponse.json(
-      { message: "Terjadi kesalahan server" },
-      { status: 500 }
-    );
-  }
+  const posts = await prisma.post.findMany({
+    orderBy: { createdAt: "desc" },
+    select: {
+      id: true,
+      title: true,
+      content: true,
+      imageUrl: true,
+      createdAt: true,
+    },
+  });
+  return NextResponse.json({ posts });
 }
 
 export async function POST(req: NextRequest) {
@@ -36,7 +28,7 @@ export async function POST(req: NextRequest) {
     const content = formData.get("content") as string;
     const imageFile = formData.get("imageUrl") as Blob | null;
 
-    if (!title || !content) {
+    if (!title || !content || !imageFile) {
       return NextResponse.json(
         { message: "Judul dan konten harus diisi!" },
         { status: 400 }

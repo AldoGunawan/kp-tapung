@@ -4,18 +4,11 @@ import { getServerSession } from "next-auth";
 import { prisma } from "../../lib/prisma";
 import { authOptions } from "../lib/auth";
 
-// ✅ Cek apakah user sudah login
 export const GET = async (req: NextRequest) => {
   const session = await getServerSession(authOptions);
-
-  if (!session) {
-    return NextResponse.json({ authenticated: false }, { status: 401 });
-  }
-
   return NextResponse.json({ authenticated: true });
 };
 
-// ✅ POST: Tambahkan validasi data
 export const POST = async (req: NextRequest) => {
   try {
     const { title, content, imageUrl } = await req.json();
@@ -38,7 +31,6 @@ export const POST = async (req: NextRequest) => {
   }
 };
 
-// ✅ DELETE: Cek dulu apakah post ada sebelum menghapus
 export const DELETE = async (req: NextRequest) => {
   try {
     const url = new URL(req.url).searchParams;
@@ -66,7 +58,6 @@ export const DELETE = async (req: NextRequest) => {
   }
 };
 
-// ✅ PUT: Update data dengan validasi
 export const PUT = async (req: NextRequest) => {
   try {
     const { id, title, content, imageUrl } = await req.json();

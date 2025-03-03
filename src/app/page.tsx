@@ -15,17 +15,18 @@ import gam6 from "./assets/gambarkeenam.jpg";
 import gam5 from "./assets/gambarkelima.jpg";
 import gam3 from "./assets/gambarketiga.jpg";
 import gam7 from "./assets/gambarketujuh.jpg";
-import Body from './body';
-import Footer from './footer';
+import Body from './components/(main-page)/body';
+import Footer from './components/(main-page)/footer';
 
 export default function Home() {
   
   return (
     <div className="w-full">
-      <h1 className="heading-primary">
-        Selamat Datang Di Website UPT SMP Negeri 10 TAPUNG
+      <h1 className="text-2xl font-bold text-center">
+         Selamat Datang di Website
+         <span className=""> UPT SMP Negeri 10 TAPUNG</span>
       </h1>
-      
+
       <Swiper
         className="w-full"
         modules={[Pagination, Autoplay]}
