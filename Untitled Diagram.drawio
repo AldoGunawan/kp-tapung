@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="26.1.0">
   <diagram name="Page-1" id="62wgaQrexJW1h9v4I1wx">
-    <mxGraphModel dx="7815" dy="3053" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="8324" dy="3331" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -269,9 +269,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="RlPF4eproUmVAvi5OpJy-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RlPF4eproUmVAvi5OpJy-49" target="RlPF4eproUmVAvi5OpJy-57" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="RlPF4eproUmVAvi5OpJy-49" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;Menampilkan Data Yang baru di halaman Kepala Sekolah&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Segoe UI;strokeWidth=2;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" parent="1" vertex="1">
           <mxGeometry x="-2621.25" y="1150" width="300" height="120" as="geometry" />
         </mxCell>
@@ -282,15 +279,10 @@
           <mxGeometry x="-2578.75" y="880" width="215" height="192.5" as="geometry" />
         </mxCell>
         <mxCell id="RlPF4eproUmVAvi5OpJy-57" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Update Data&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI;strokeWidth=2;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" parent="1" vertex="1">
-          <mxGeometry x="-2200" y="1320" width="320" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="RlPF4eproUmVAvi5OpJy-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="RlPF4eproUmVAvi5OpJy-57" target="RlPF4eproUmVAvi5OpJy-62" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-2471.25" y="1540" as="sourcePoint" />
-          </mxGeometry>
+          <mxGeometry x="-2200" y="1260" width="320" height="120" as="geometry" />
         </mxCell>
         <mxCell id="RlPF4eproUmVAvi5OpJy-62" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;Menampilkan Data terbaru yang sudah di update di halaman Kepala Sekolah&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Segoe UI;strokeWidth=2;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" parent="1" vertex="1">
-          <mxGeometry x="-2626.87" y="1530" width="311.25" height="120" as="geometry" />
+          <mxGeometry x="-2626.88" y="1550" width="311.25" height="120" as="geometry" />
         </mxCell>
         <mxCell id="RlPF4eproUmVAvi5OpJy-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RlPF4eproUmVAvi5OpJy-63" target="RlPF4eproUmVAvi5OpJy-74" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -322,7 +314,7 @@
             <mxPoint x="-2610.75" y="1680" as="targetPoint" />
             <Array as="points">
               <mxPoint x="-2910" y="1850" />
-              <mxPoint x="-2910" y="1590" />
+              <mxPoint x="-2910" y="1610" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -509,6 +501,31 @@
         </mxCell>
         <mxCell id="5DLogdGfT_ghR6-oUIHj-31" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Masukkan Email dan Password&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" vertex="1" parent="1">
           <mxGeometry x="-3390" y="1035" width="320" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="5DLogdGfT_ghR6-oUIHj-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5DLogdGfT_ghR6-oUIHj-35" target="RlPF4eproUmVAvi5OpJy-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5DLogdGfT_ghR6-oUIHj-35" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Validasi&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-2578.7599999999998" y="1323.75" width="215" height="192.5" as="geometry" />
+        </mxCell>
+        <mxCell id="5DLogdGfT_ghR6-oUIHj-36" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="RlPF4eproUmVAvi5OpJy-57" target="5DLogdGfT_ghR6-oUIHj-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2220" y="1480" as="sourcePoint" />
+            <mxPoint x="-2170" y="1430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-2040" y="1420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5DLogdGfT_ghR6-oUIHj-37" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5DLogdGfT_ghR6-oUIHj-35" target="RlPF4eproUmVAvi5OpJy-49">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2690" y="1380" as="sourcePoint" />
+            <mxPoint x="-2640" y="1330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-2810" y="1420" />
+              <mxPoint x="-2810" y="1210" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
