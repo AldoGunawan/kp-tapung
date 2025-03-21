@@ -132,7 +132,7 @@
         <mxCell id="8R-yL0RApLmhjHllztZO-1" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
           <mxGeometry x="45" y="190" width="20" height="450" as="geometry" />
         </mxCell>
-        <mxCell id="8R-yL0RApLmhjHllztZO-2" value="sd Register" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=85;height=30;" vertex="1" parent="1">
+        <mxCell id="8R-yL0RApLmhjHllztZO-2" value="sd Login" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=85;height=30;" vertex="1" parent="1">
           <mxGeometry x="5" y="110" width="845" height="580" as="geometry" />
         </mxCell>
         <mxCell id="8R-yL0RApLmhjHllztZO-3" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="8R-yL0RApLmhjHllztZO-5" target="8R-yL0RApLmhjHllztZO-7">
