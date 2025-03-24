@@ -125,7 +125,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="XL3WPjAu-VKslVZOJtTs" name="Page-2">
-    <mxGraphModel dx="670" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="939" dy="1097" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -164,7 +164,7 @@
             <mxPoint x="441.25" y="414.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8R-yL0RApLmhjHllztZO-11" value="4. Validasi Form" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="8R-yL0RApLmhjHllztZO-10" vertex="1" connectable="0">
+        <mxCell id="8R-yL0RApLmhjHllztZO-11" value="4. Mengirim data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="8R-yL0RApLmhjHllztZO-10" vertex="1" connectable="0">
           <mxGeometry x="-0.0841" y="1" relative="1" as="geometry">
             <mxPoint x="7" y="-9" as="offset" />
           </mxGeometry>
@@ -232,13 +232,13 @@
         <mxCell id="8R-yL0RApLmhjHllztZO-25" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="8R-yL0RApLmhjHllztZO-24" vertex="1">
           <mxGeometry x="20" y="370" width="10" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="8R-yL0RApLmhjHllztZO-26" value="Login Page" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="8R-yL0RApLmhjHllztZO-26" value="Homepage" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="768.75" y="160" width="92.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8R-yL0RApLmhjHllztZO-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;exitX=1;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;entryX=0;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" parent="1" source="8R-yL0RApLmhjHllztZO-20" target="8R-yL0RApLmhjHllztZO-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8R-yL0RApLmhjHllztZO-28" value="10. Menampilkan Halaman Login" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="8R-yL0RApLmhjHllztZO-27" vertex="1" connectable="0">
+        <mxCell id="8R-yL0RApLmhjHllztZO-28" value="10. Menampilkan Homepage" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="8R-yL0RApLmhjHllztZO-27" vertex="1" connectable="0">
           <mxGeometry x="0.0077" y="1" relative="1" as="geometry">
             <mxPoint x="4" y="-14" as="offset" />
           </mxGeometry>
