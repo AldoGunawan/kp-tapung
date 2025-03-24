@@ -125,7 +125,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="XL3WPjAu-VKslVZOJtTs" name="Page-2">
-    <mxGraphModel dx="704" dy="823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="670" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -138,7 +138,7 @@
         <mxCell id="8R-yL0RApLmhjHllztZO-3" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="8R-yL0RApLmhjHllztZO-5" target="8R-yL0RApLmhjHllztZO-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8R-yL0RApLmhjHllztZO-4" value="1. Membuka&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="8R-yL0RApLmhjHllztZO-3" vertex="1" connectable="0">
+        <mxCell id="8R-yL0RApLmhjHllztZO-4" value="1. Membuka Halaman Login" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="8R-yL0RApLmhjHllztZO-3" vertex="1" connectable="0">
           <mxGeometry x="0.0182" y="-2" relative="1" as="geometry">
             <mxPoint y="-17" as="offset" />
           </mxGeometry>
@@ -150,7 +150,7 @@
           <mxGeometry x="230" y="190" width="50" height="450" as="geometry" />
         </mxCell>
         <mxCell id="8R-yL0RApLmhjHllztZO-7" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="8R-yL0RApLmhjHllztZO-6" vertex="1">
-          <mxGeometry x="20" y="130" width="10" height="140" as="geometry" />
+          <mxGeometry x="20" y="130" width="10" height="170" as="geometry" />
         </mxCell>
         <mxCell id="8R-yL0RApLmhjHllztZO-8" value="Login Page" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="206.25" y="160" width="97.5" height="30" as="geometry" />
@@ -158,21 +158,21 @@
         <mxCell id="8R-yL0RApLmhjHllztZO-9" value="Login&amp;nbsp;Controller" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="400" y="160" width="92.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8R-yL0RApLmhjHllztZO-10" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" target="8R-yL0RApLmhjHllztZO-20" edge="1">
+        <mxCell id="8R-yL0RApLmhjHllztZO-10" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="260" y="350" as="sourcePoint" />
-            <mxPoint x="431.25" y="350" as="targetPoint" />
+            <mxPoint x="260" y="414.5" as="sourcePoint" />
+            <mxPoint x="441.25" y="414.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8R-yL0RApLmhjHllztZO-11" value="2. Validasi Form" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="8R-yL0RApLmhjHllztZO-10" vertex="1" connectable="0">
+        <mxCell id="8R-yL0RApLmhjHllztZO-11" value="4. Validasi Form" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="8R-yL0RApLmhjHllztZO-10" vertex="1" connectable="0">
           <mxGeometry x="-0.0841" y="1" relative="1" as="geometry">
             <mxPoint x="7" y="-9" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8R-yL0RApLmhjHllztZO-12" value="3. Validation (False)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;" parent="1" edge="1">
+        <mxCell id="8R-yL0RApLmhjHllztZO-12" value="5. Validation (False)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="441.25" y="414.5" as="sourcePoint" />
-            <mxPoint x="260" y="414.5" as="targetPoint" />
+            <mxPoint x="441.25" y="450" as="sourcePoint" />
+            <mxPoint x="260" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8R-yL0RApLmhjHllztZO-13" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" parent="1" source="8R-yL0RApLmhjHllztZO-19" target="8R-yL0RApLmhjHllztZO-22" edge="1">
@@ -181,27 +181,27 @@
             <mxPoint x="714.5" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8R-yL0RApLmhjHllztZO-14" value="6. Validation (True)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="8R-yL0RApLmhjHllztZO-13" vertex="1" connectable="0">
+        <mxCell id="8R-yL0RApLmhjHllztZO-14" value="8. Validation (True)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="8R-yL0RApLmhjHllztZO-13" vertex="1" connectable="0">
           <mxGeometry x="-0.0955" y="-1" relative="1" as="geometry">
             <mxPoint x="6" y="-16" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8R-yL0RApLmhjHllztZO-15" value="7. Registrasi Berhasil" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" parent="1" source="8R-yL0RApLmhjHllztZO-22" target="8R-yL0RApLmhjHllztZO-20" edge="1">
+        <mxCell id="8R-yL0RApLmhjHllztZO-15" value="9. Login Berhasil" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="720" y="560" as="sourcePoint" />
-            <mxPoint x="580" y="560" as="targetPoint" />
+            <mxPoint x="631.25" y="549" as="sourcePoint" />
+            <mxPoint x="451.25" y="549" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8R-yL0RApLmhjHllztZO-16" value="4. Error" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;" parent="1" edge="1">
+        <mxCell id="8R-yL0RApLmhjHllztZO-16" value="6. Error" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="250" y="450" as="sourcePoint" />
-            <mxPoint x="60" y="450" as="targetPoint" />
+            <mxPoint x="250" y="460" as="sourcePoint" />
+            <mxPoint x="60" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8R-yL0RApLmhjHllztZO-17" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="60" y="490" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8R-yL0RApLmhjHllztZO-18" value="5. Kembali Ke Langkah awal" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="1" edge="1">
+        <mxCell id="8R-yL0RApLmhjHllztZO-18" value="7. Kembali Ke Langkah awal" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="60" y="480" as="sourcePoint" />
             <Array as="points">
@@ -238,13 +238,35 @@
         <mxCell id="8R-yL0RApLmhjHllztZO-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;exitX=1;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;entryX=0;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" parent="1" source="8R-yL0RApLmhjHllztZO-20" target="8R-yL0RApLmhjHllztZO-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8R-yL0RApLmhjHllztZO-28" value="8. Menampilkan Halaman Login" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="8R-yL0RApLmhjHllztZO-27" vertex="1" connectable="0">
+        <mxCell id="8R-yL0RApLmhjHllztZO-28" value="10. Menampilkan Halaman Login" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="8R-yL0RApLmhjHllztZO-27" vertex="1" connectable="0">
           <mxGeometry x="0.0077" y="1" relative="1" as="geometry">
             <mxPoint x="4" y="-14" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8R-yL0RApLmhjHllztZO-29" value="User" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="6.25" y="160" width="97.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-N3tRv9uasJow3uVt5WV-1" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="360" as="sourcePoint" />
+            <mxPoint x="250" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-N3tRv9uasJow3uVt5WV-2" value="2. Mengisi Email dan Password" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="-N3tRv9uasJow3uVt5WV-1">
+          <mxGeometry x="0.0182" y="-2" relative="1" as="geometry">
+            <mxPoint y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-N3tRv9uasJow3uVt5WV-3" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="390" as="sourcePoint" />
+            <mxPoint x="250" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-N3tRv9uasJow3uVt5WV-4" value="3. Menekan Tombol Login" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="-N3tRv9uasJow3uVt5WV-3">
+          <mxGeometry x="0.0182" y="-2" relative="1" as="geometry">
+            <mxPoint y="-17" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
