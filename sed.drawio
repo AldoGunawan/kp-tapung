@@ -14,7 +14,7 @@
           <mxGeometry x="45" y="190" width="20" height="450" as="geometry" />
         </mxCell>
         <mxCell id="iQeLM1-3DoPmlmmyjXH5-2" value="sd Register" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=85;height=30;strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#000000,#FFFFFF);movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
-          <mxGeometry x="5" y="110" width="1065" height="580" as="geometry" />
+          <mxGeometry x="5" y="110" width="875" height="580" as="geometry" />
         </mxCell>
         <mxCell id="iOsQXkImb65fX7CqrOVJ-7" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -111,19 +111,10 @@
         <mxCell id="Kd7_n3Mi1dB5_8vD8Iv0-8" value="Database" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=light-dark(#000000,#000000);" parent="1" vertex="1">
           <mxGeometry x="783.75" y="160" width="92.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Kd7_n3Mi1dB5_8vD8Iv0-13" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;strokeColor=light-dark(#000000,#000000);fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="983.75" y="190" width="50" height="450" as="geometry" />
-        </mxCell>
-        <mxCell id="Kd7_n3Mi1dB5_8vD8Iv0-14" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=light-dark(#000000,#000000);fillColor=none;" parent="Kd7_n3Mi1dB5_8vD8Iv0-13" vertex="1">
-          <mxGeometry x="20" y="370" width="10" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="Kd7_n3Mi1dB5_8vD8Iv0-15" value="Sign In Page" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=light-dark(#000000,#000000);" parent="1" vertex="1">
-          <mxGeometry x="962.5" y="160" width="92.5" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Kd7_n3Mi1dB5_8vD8Iv0-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;exitX=1;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;entryX=0;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;strokeColor=light-dark(#000000,#000000);" parent="1" source="Kd7_n3Mi1dB5_8vD8Iv0-6" target="Kd7_n3Mi1dB5_8vD8Iv0-14" edge="1">
+        <mxCell id="Kd7_n3Mi1dB5_8vD8Iv0-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;entryX=1;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;strokeColor=light-dark(#000000,#000000);" parent="1" source="Kd7_n3Mi1dB5_8vD8Iv0-6" target="Nq0-rY1Qn34CHEfjGjPh-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Kd7_n3Mi1dB5_8vD8Iv0-18" value="11. Menampilkan Halaman Login" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);fontColor=light-dark(#000000,#000000);" parent="Kd7_n3Mi1dB5_8vD8Iv0-16" vertex="1" connectable="0">
+        <mxCell id="Kd7_n3Mi1dB5_8vD8Iv0-18" value="11. Menampilkan Halaman Sign in Page" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);fontColor=light-dark(#000000,#000000);" parent="Kd7_n3Mi1dB5_8vD8Iv0-16" vertex="1" connectable="0">
           <mxGeometry x="0.0077" y="1" relative="1" as="geometry">
             <mxPoint x="4" y="-14" as="offset" />
           </mxGeometry>
@@ -173,6 +164,9 @@
           <mxGeometry x="0.0182" y="-2" relative="1" as="geometry">
             <mxPoint y="-17" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Nq0-rY1Qn34CHEfjGjPh-2" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=light-dark(#000000,#000000);fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="320" y="560" width="10" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
