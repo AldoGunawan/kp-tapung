@@ -18,13 +18,13 @@
             <mxPoint y="-17" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iQeLM1-3DoPmlmmyjXH5-4" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=light-dark(#000000,#000000);" parent="1" vertex="1">
+        <mxCell id="iQeLM1-3DoPmlmmyjXH5-4" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=light-dark(#000000,#000000);fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="50" y="320" width="10" height="220" as="geometry" />
         </mxCell>
         <mxCell id="iQeLM1-3DoPmlmmyjXH5-12" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;strokeColor=light-dark(#000000,#000000);fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="230" y="190" width="50" height="450" as="geometry" />
         </mxCell>
-        <mxCell id="iOsQXkImb65fX7CqrOVJ-1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="iQeLM1-3DoPmlmmyjXH5-12" vertex="1">
+        <mxCell id="iOsQXkImb65fX7CqrOVJ-1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=none;" parent="iQeLM1-3DoPmlmmyjXH5-12" vertex="1">
           <mxGeometry x="20" y="130" width="10" height="140" as="geometry" />
         </mxCell>
         <mxCell id="iOsQXkImb65fX7CqrOVJ-4" value="Registration Page" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=light-dark(#000000,#000000);" parent="1" vertex="1">
@@ -89,13 +89,13 @@
         <mxCell id="Kd7_n3Mi1dB5_8vD8Iv0-3" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlControl;strokeColor=light-dark(#000000,#000000);fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="426.25" y="190" width="40" height="450" as="geometry" />
         </mxCell>
-        <mxCell id="Kd7_n3Mi1dB5_8vD8Iv0-6" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=light-dark(#000000,#000000);" parent="Kd7_n3Mi1dB5_8vD8Iv0-3" vertex="1">
+        <mxCell id="Kd7_n3Mi1dB5_8vD8Iv0-6" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=light-dark(#000000,#000000);fillColor=none;" parent="Kd7_n3Mi1dB5_8vD8Iv0-3" vertex="1">
           <mxGeometry x="15" y="130" width="10" height="310" as="geometry" />
         </mxCell>
         <mxCell id="Kd7_n3Mi1dB5_8vD8Iv0-4" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;strokeColor=light-dark(#000000,#000000);fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="616.25" y="190" width="40" height="450" as="geometry" />
         </mxCell>
-        <mxCell id="Kd7_n3Mi1dB5_8vD8Iv0-5" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=light-dark(#000000,#000000);" parent="Kd7_n3Mi1dB5_8vD8Iv0-4" vertex="1">
+        <mxCell id="Kd7_n3Mi1dB5_8vD8Iv0-5" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=light-dark(#000000,#000000);fillColor=none;" parent="Kd7_n3Mi1dB5_8vD8Iv0-4" vertex="1">
           <mxGeometry x="15" y="320" width="10" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Kd7_n3Mi1dB5_8vD8Iv0-8" value="Database" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=light-dark(#000000,#000000);" parent="1" vertex="1">
@@ -104,7 +104,7 @@
         <mxCell id="Kd7_n3Mi1dB5_8vD8Iv0-13" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;strokeColor=light-dark(#000000,#000000);fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="790" y="190" width="50" height="450" as="geometry" />
         </mxCell>
-        <mxCell id="Kd7_n3Mi1dB5_8vD8Iv0-14" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=light-dark(#000000,#000000);" parent="Kd7_n3Mi1dB5_8vD8Iv0-13" vertex="1">
+        <mxCell id="Kd7_n3Mi1dB5_8vD8Iv0-14" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=light-dark(#000000,#000000);fillColor=none;" parent="Kd7_n3Mi1dB5_8vD8Iv0-13" vertex="1">
           <mxGeometry x="20" y="370" width="10" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Kd7_n3Mi1dB5_8vD8Iv0-15" value="Login Page" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=light-dark(#000000,#000000);" parent="1" vertex="1">
