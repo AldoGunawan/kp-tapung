@@ -318,86 +318,86 @@
     </mxGraphModel>
   </diagram>
   <diagram name="login (admin)" id="_Bk56iERYIzOnHJlipSA">
-    <mxGraphModel dx="964" dy="1111" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="761" dy="930" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="HHTaWkDLJgXyie9WHGWZ-0" />
         <mxCell id="HHTaWkDLJgXyie9WHGWZ-1" parent="HHTaWkDLJgXyie9WHGWZ-0" />
-        <mxCell id="HHTaWkDLJgXyie9WHGWZ-2" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" vertex="1" parent="HHTaWkDLJgXyie9WHGWZ-1">
+        <mxCell id="HHTaWkDLJgXyie9WHGWZ-2" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontSize=14;fontStyle=1" parent="HHTaWkDLJgXyie9WHGWZ-1" vertex="1">
           <mxGeometry x="45" y="190" width="20" height="450" as="geometry" />
         </mxCell>
-        <mxCell id="HHTaWkDLJgXyie9WHGWZ-3" value="&lt;b&gt;sd Login&lt;/b&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=85;height=30;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" vertex="1" parent="HHTaWkDLJgXyie9WHGWZ-1">
-          <mxGeometry x="5" y="110" width="885" height="580" as="geometry" />
+        <mxCell id="HHTaWkDLJgXyie9WHGWZ-3" value="&lt;span&gt;sd Login Admin&lt;/span&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=85;height=30;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontSize=14;fontStyle=1" parent="HHTaWkDLJgXyie9WHGWZ-1" vertex="1">
+          <mxGeometry x="5" y="130" width="815" height="530" as="geometry" />
         </mxCell>
-        <mxCell id="HHTaWkDLJgXyie9WHGWZ-4" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" edge="1" parent="HHTaWkDLJgXyie9WHGWZ-1" source="HHTaWkDLJgXyie9WHGWZ-6" target="HHTaWkDLJgXyie9WHGWZ-33">
+        <mxCell id="HHTaWkDLJgXyie9WHGWZ-4" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;startSize=8;endSize=8;entryX=0;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontStyle=1" parent="HHTaWkDLJgXyie9WHGWZ-1" source="HHTaWkDLJgXyie9WHGWZ-6" target="HHTaWkDLJgXyie9WHGWZ-33" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="60" y="370" as="sourcePoint" />
             <mxPoint x="333.75" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HHTaWkDLJgXyie9WHGWZ-5" value="1. Menekan Tombol Sign In" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" vertex="1" connectable="0" parent="HHTaWkDLJgXyie9WHGWZ-4">
+        <mxCell id="HHTaWkDLJgXyie9WHGWZ-5" value="1. Menekan Tombol Sign In" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontStyle=1" parent="HHTaWkDLJgXyie9WHGWZ-4" vertex="1" connectable="0">
           <mxGeometry x="0.0182" y="-2" relative="1" as="geometry">
             <mxPoint y="-17" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HHTaWkDLJgXyie9WHGWZ-6" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" vertex="1" parent="HHTaWkDLJgXyie9WHGWZ-1">
+        <mxCell id="HHTaWkDLJgXyie9WHGWZ-6" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontSize=14;fontStyle=1" parent="HHTaWkDLJgXyie9WHGWZ-1" vertex="1">
           <mxGeometry x="50" y="320" width="10" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="HHTaWkDLJgXyie9WHGWZ-7" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" vertex="1" parent="HHTaWkDLJgXyie9WHGWZ-1">
-          <mxGeometry x="333.75" y="190" width="50" height="450" as="geometry" />
+        <mxCell id="HHTaWkDLJgXyie9WHGWZ-7" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontSize=14;fontStyle=1" parent="HHTaWkDLJgXyie9WHGWZ-1" vertex="1">
+          <mxGeometry x="323.75" y="190" width="50" height="450" as="geometry" />
         </mxCell>
-        <mxCell id="HHTaWkDLJgXyie9WHGWZ-8" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" vertex="1" parent="HHTaWkDLJgXyie9WHGWZ-7">
+        <mxCell id="HHTaWkDLJgXyie9WHGWZ-8" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontSize=14;fontStyle=1" parent="HHTaWkDLJgXyie9WHGWZ-7" vertex="1">
           <mxGeometry x="20" y="130" width="10" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="HHTaWkDLJgXyie9WHGWZ-9" value="Sign In Page" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" vertex="1" parent="HHTaWkDLJgXyie9WHGWZ-1">
-          <mxGeometry x="310" y="160" width="97.5" height="30" as="geometry" />
+        <mxCell id="HHTaWkDLJgXyie9WHGWZ-9" value="Sign In Page" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontSize=14;fontStyle=1" parent="HHTaWkDLJgXyie9WHGWZ-1" vertex="1">
+          <mxGeometry x="300" y="160" width="97.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HHTaWkDLJgXyie9WHGWZ-10" value="Sign In Controller" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" vertex="1" parent="HHTaWkDLJgXyie9WHGWZ-1">
-          <mxGeometry x="473.75" y="160" width="92.5" height="30" as="geometry" />
+        <mxCell id="HHTaWkDLJgXyie9WHGWZ-10" value="Sign In Controller" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontSize=14;fontStyle=1" parent="HHTaWkDLJgXyie9WHGWZ-1" vertex="1">
+          <mxGeometry x="446.25" y="160" width="92.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HHTaWkDLJgXyie9WHGWZ-11" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" edge="1" parent="HHTaWkDLJgXyie9WHGWZ-1" source="HHTaWkDLJgXyie9WHGWZ-8">
+        <mxCell id="HHTaWkDLJgXyie9WHGWZ-11" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;startSize=8;endSize=8;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontStyle=1" parent="HHTaWkDLJgXyie9WHGWZ-1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="390" y="440" as="sourcePoint" />
-            <mxPoint x="515" y="440" as="targetPoint" />
+            <mxPoint x="353.75" y="440" as="sourcePoint" />
+            <mxPoint x="487.5" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HHTaWkDLJgXyie9WHGWZ-12" value="4. Mengirim data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" vertex="1" connectable="0" parent="HHTaWkDLJgXyie9WHGWZ-11">
+        <mxCell id="HHTaWkDLJgXyie9WHGWZ-12" value="4. Mengirim data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontSize=14;fontStyle=1" parent="HHTaWkDLJgXyie9WHGWZ-11" vertex="1" connectable="0">
           <mxGeometry x="-0.0841" y="1" relative="1" as="geometry">
             <mxPoint x="7" y="-9" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HHTaWkDLJgXyie9WHGWZ-13" value="5. Validation (False)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" edge="1" parent="HHTaWkDLJgXyie9WHGWZ-1" source="HHTaWkDLJgXyie9WHGWZ-21" target="HHTaWkDLJgXyie9WHGWZ-8">
+        <mxCell id="HHTaWkDLJgXyie9WHGWZ-13" value="5. Validation (False)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=14;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontStyle=1" parent="HHTaWkDLJgXyie9WHGWZ-1" source="HHTaWkDLJgXyie9WHGWZ-21" target="HHTaWkDLJgXyie9WHGWZ-8" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="515.25" y="490" as="sourcePoint" />
-            <mxPoint x="334" y="490" as="targetPoint" />
+            <mxPoint x="505.25" y="490" as="sourcePoint" />
+            <mxPoint x="324" y="490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HHTaWkDLJgXyie9WHGWZ-14" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" edge="1" parent="HHTaWkDLJgXyie9WHGWZ-1" source="HHTaWkDLJgXyie9WHGWZ-20" target="HHTaWkDLJgXyie9WHGWZ-23">
+        <mxCell id="HHTaWkDLJgXyie9WHGWZ-14" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;startSize=8;endSize=8;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontStyle=1" parent="HHTaWkDLJgXyie9WHGWZ-1" source="HHTaWkDLJgXyie9WHGWZ-20" target="HHTaWkDLJgXyie9WHGWZ-23" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="553.75" y="520" as="sourcePoint" />
-            <mxPoint x="788.25" y="520" as="targetPoint" />
+            <mxPoint x="526.25" y="520" as="sourcePoint" />
+            <mxPoint x="760.75" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HHTaWkDLJgXyie9WHGWZ-15" value="8. Validation (True)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" vertex="1" connectable="0" parent="HHTaWkDLJgXyie9WHGWZ-14">
+        <mxCell id="HHTaWkDLJgXyie9WHGWZ-15" value="8. Validation (True)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontStyle=1" parent="HHTaWkDLJgXyie9WHGWZ-14" vertex="1" connectable="0">
           <mxGeometry x="-0.0955" y="-1" relative="1" as="geometry">
             <mxPoint x="6" y="-16" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HHTaWkDLJgXyie9WHGWZ-16" value="9. Login Berhasil" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" edge="1" parent="HHTaWkDLJgXyie9WHGWZ-1">
+        <mxCell id="HHTaWkDLJgXyie9WHGWZ-16" value="9. Login Berhasil" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=14;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontStyle=1" parent="HHTaWkDLJgXyie9WHGWZ-1" edge="1" source="HHTaWkDLJgXyie9WHGWZ-23">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="705" y="549" as="sourcePoint" />
-            <mxPoint x="525" y="549" as="targetPoint" />
+            <mxPoint x="677.5" y="549" as="sourcePoint" />
+            <mxPoint x="497.5" y="549" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HHTaWkDLJgXyie9WHGWZ-17" value="6. Error" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" edge="1" parent="HHTaWkDLJgXyie9WHGWZ-1">
+        <mxCell id="HHTaWkDLJgXyie9WHGWZ-17" value="6. Error" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=14;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontStyle=1" parent="HHTaWkDLJgXyie9WHGWZ-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="353.75" y="490" as="sourcePoint" />
             <mxPoint x="60" y="490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HHTaWkDLJgXyie9WHGWZ-18" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" vertex="1" parent="HHTaWkDLJgXyie9WHGWZ-1">
+        <mxCell id="HHTaWkDLJgXyie9WHGWZ-18" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontSize=14;fontStyle=1" parent="HHTaWkDLJgXyie9WHGWZ-1" vertex="1">
           <mxGeometry x="60" y="520" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="HHTaWkDLJgXyie9WHGWZ-19" value="7. Kembali Ke Langkah awal" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" edge="1" parent="HHTaWkDLJgXyie9WHGWZ-1">
+        <mxCell id="HHTaWkDLJgXyie9WHGWZ-19" value="7. Kembali Ke Langkah awal" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontSize=14;fontStyle=1" parent="HHTaWkDLJgXyie9WHGWZ-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="60" y="510" as="sourcePoint" />
             <Array as="points">
@@ -407,158 +407,158 @@
             <mxPoint x="70" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HHTaWkDLJgXyie9WHGWZ-20" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlControl;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" vertex="1" parent="HHTaWkDLJgXyie9WHGWZ-1">
-          <mxGeometry x="500" y="190" width="40" height="450" as="geometry" />
+        <mxCell id="HHTaWkDLJgXyie9WHGWZ-20" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlControl;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontSize=14;fontStyle=1" parent="HHTaWkDLJgXyie9WHGWZ-1" vertex="1">
+          <mxGeometry x="472.5" y="190" width="40" height="450" as="geometry" />
         </mxCell>
-        <mxCell id="HHTaWkDLJgXyie9WHGWZ-21" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" vertex="1" parent="HHTaWkDLJgXyie9WHGWZ-20">
+        <mxCell id="HHTaWkDLJgXyie9WHGWZ-21" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontSize=14;fontStyle=1" parent="HHTaWkDLJgXyie9WHGWZ-20" vertex="1">
           <mxGeometry x="15" y="130" width="10" height="310" as="geometry" />
         </mxCell>
-        <mxCell id="HHTaWkDLJgXyie9WHGWZ-22" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" vertex="1" parent="HHTaWkDLJgXyie9WHGWZ-1">
-          <mxGeometry x="690" y="190" width="40" height="450" as="geometry" />
+        <mxCell id="HHTaWkDLJgXyie9WHGWZ-22" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontSize=14;fontStyle=1" parent="HHTaWkDLJgXyie9WHGWZ-1" vertex="1">
+          <mxGeometry x="627.75" y="190" width="40" height="450" as="geometry" />
         </mxCell>
-        <mxCell id="HHTaWkDLJgXyie9WHGWZ-23" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" vertex="1" parent="HHTaWkDLJgXyie9WHGWZ-22">
+        <mxCell id="HHTaWkDLJgXyie9WHGWZ-23" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontSize=14;fontStyle=1" parent="HHTaWkDLJgXyie9WHGWZ-22" vertex="1">
           <mxGeometry x="15" y="320" width="10" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="HHTaWkDLJgXyie9WHGWZ-24" value="Database" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" vertex="1" parent="HHTaWkDLJgXyie9WHGWZ-1">
-          <mxGeometry x="663.75" y="160" width="92.5" height="30" as="geometry" />
+        <mxCell id="HHTaWkDLJgXyie9WHGWZ-24" value="Database" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontSize=14;fontStyle=1" parent="HHTaWkDLJgXyie9WHGWZ-1" vertex="1">
+          <mxGeometry x="601.5" y="160" width="92.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HHTaWkDLJgXyie9WHGWZ-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;exitX=1;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" edge="1" parent="HHTaWkDLJgXyie9WHGWZ-1" source="HHTaWkDLJgXyie9WHGWZ-21" target="HHTaWkDLJgXyie9WHGWZ-34">
+        <mxCell id="HHTaWkDLJgXyie9WHGWZ-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;exitX=1;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontSize=14;fontStyle=1" parent="HHTaWkDLJgXyie9WHGWZ-1" source="HHTaWkDLJgXyie9WHGWZ-21" target="HHTaWkDLJgXyie9WHGWZ-34" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="390" y="625" as="targetPoint" />
+            <mxPoint x="362.5" y="625" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HHTaWkDLJgXyie9WHGWZ-26" value="10. Menampilkan School News Page" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" vertex="1" connectable="0" parent="HHTaWkDLJgXyie9WHGWZ-25">
+        <mxCell id="HHTaWkDLJgXyie9WHGWZ-26" value="10. Menampilkan School News Page" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontSize=14;fontStyle=1" parent="HHTaWkDLJgXyie9WHGWZ-25" vertex="1" connectable="0">
           <mxGeometry x="0.0077" y="1" relative="1" as="geometry">
             <mxPoint x="4" y="-14" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HHTaWkDLJgXyie9WHGWZ-27" value="User" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" vertex="1" parent="HHTaWkDLJgXyie9WHGWZ-1">
+        <mxCell id="HHTaWkDLJgXyie9WHGWZ-27" value="User" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontSize=14;fontStyle=1" parent="HHTaWkDLJgXyie9WHGWZ-1" vertex="1">
           <mxGeometry x="6.25" y="160" width="97.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HHTaWkDLJgXyie9WHGWZ-28" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" edge="1" parent="HHTaWkDLJgXyie9WHGWZ-1" target="HHTaWkDLJgXyie9WHGWZ-7">
+        <mxCell id="HHTaWkDLJgXyie9WHGWZ-28" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;startSize=8;endSize=8;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontStyle=1" parent="HHTaWkDLJgXyie9WHGWZ-1" target="HHTaWkDLJgXyie9WHGWZ-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="60" y="390" as="sourcePoint" />
             <mxPoint x="338.25" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HHTaWkDLJgXyie9WHGWZ-29" value="2. Mengisi Email dan Password" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" vertex="1" connectable="0" parent="HHTaWkDLJgXyie9WHGWZ-28">
+        <mxCell id="HHTaWkDLJgXyie9WHGWZ-29" value="2. Mengisi Email dan Password" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontStyle=1" parent="HHTaWkDLJgXyie9WHGWZ-28" vertex="1" connectable="0">
           <mxGeometry x="0.0182" y="-2" relative="1" as="geometry">
             <mxPoint x="24" y="-17" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HHTaWkDLJgXyie9WHGWZ-30" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;fontSize=12;startSize=8;endSize=8;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" edge="1" parent="HHTaWkDLJgXyie9WHGWZ-1" target="HHTaWkDLJgXyie9WHGWZ-7">
+        <mxCell id="HHTaWkDLJgXyie9WHGWZ-30" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;fontSize=14;startSize=8;endSize=8;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontStyle=1" parent="HHTaWkDLJgXyie9WHGWZ-1" target="HHTaWkDLJgXyie9WHGWZ-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="60" y="429.5" as="sourcePoint" />
             <mxPoint x="250" y="429.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HHTaWkDLJgXyie9WHGWZ-31" value="3. Menekan Tombol Login" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" vertex="1" connectable="0" parent="HHTaWkDLJgXyie9WHGWZ-30">
+        <mxCell id="HHTaWkDLJgXyie9WHGWZ-31" value="3. Menekan Tombol Login" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontStyle=1" parent="HHTaWkDLJgXyie9WHGWZ-30" vertex="1" connectable="0">
           <mxGeometry x="0.0182" y="-2" relative="1" as="geometry">
             <mxPoint x="24" y="-17" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HHTaWkDLJgXyie9WHGWZ-32" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" vertex="1" parent="HHTaWkDLJgXyie9WHGWZ-1">
-          <mxGeometry x="205.25" y="190" width="50" height="450" as="geometry" />
+        <mxCell id="HHTaWkDLJgXyie9WHGWZ-32" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontSize=14;fontStyle=1" parent="HHTaWkDLJgXyie9WHGWZ-1" vertex="1">
+          <mxGeometry x="230" y="190" width="50" height="450" as="geometry" />
         </mxCell>
-        <mxCell id="HHTaWkDLJgXyie9WHGWZ-33" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" vertex="1" parent="HHTaWkDLJgXyie9WHGWZ-32">
+        <mxCell id="HHTaWkDLJgXyie9WHGWZ-33" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontSize=14;fontStyle=1" parent="HHTaWkDLJgXyie9WHGWZ-32" vertex="1">
           <mxGeometry x="20" y="130" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="HHTaWkDLJgXyie9WHGWZ-35" value="Homepage" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" vertex="1" parent="HHTaWkDLJgXyie9WHGWZ-1">
+        <mxCell id="HHTaWkDLJgXyie9WHGWZ-35" value="Homepage" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontSize=14;fontStyle=1" parent="HHTaWkDLJgXyie9WHGWZ-1" vertex="1">
           <mxGeometry x="184" y="160" width="92.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="p1YLKY9fdgRinPLB432J-0" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" vertex="1" parent="HHTaWkDLJgXyie9WHGWZ-1">
-          <mxGeometry x="803.75" y="190" width="50" height="450" as="geometry" />
+        <mxCell id="p1YLKY9fdgRinPLB432J-0" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontSize=14;fontStyle=1" parent="HHTaWkDLJgXyie9WHGWZ-1" vertex="1">
+          <mxGeometry x="741.5" y="190" width="50" height="450" as="geometry" />
         </mxCell>
-        <mxCell id="HHTaWkDLJgXyie9WHGWZ-34" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" vertex="1" parent="p1YLKY9fdgRinPLB432J-0">
+        <mxCell id="HHTaWkDLJgXyie9WHGWZ-34" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontSize=14;fontStyle=1" parent="p1YLKY9fdgRinPLB432J-0" vertex="1">
           <mxGeometry x="20" y="420" width="10" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="p1YLKY9fdgRinPLB432J-2" value="School News Page" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" vertex="1" parent="HHTaWkDLJgXyie9WHGWZ-1">
-          <mxGeometry x="780" y="160" width="97.5" height="30" as="geometry" />
+        <mxCell id="p1YLKY9fdgRinPLB432J-2" value="School News Page" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontSize=14;fontStyle=1" parent="HHTaWkDLJgXyie9WHGWZ-1" vertex="1">
+          <mxGeometry x="717.75" y="160" width="97.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="login (kepsek)" id="TROCev8HriPlmgfWMfbF">
-    <mxGraphModel dx="2339" dy="1123" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="812" dy="992" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-0" />
         <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-1" parent="eWLfMKaqJWTq2ZZ2_UdR-0" />
-        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-2" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" vertex="1" parent="eWLfMKaqJWTq2ZZ2_UdR-1">
+        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-2" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontStyle=1;fontSize=14;" parent="eWLfMKaqJWTq2ZZ2_UdR-1" vertex="1">
           <mxGeometry x="45" y="190" width="20" height="450" as="geometry" />
         </mxCell>
-        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-3" value="&lt;b&gt;sd Login&lt;/b&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=85;height=30;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" vertex="1" parent="eWLfMKaqJWTq2ZZ2_UdR-1">
+        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-3" value="&lt;span&gt;sd Login Kepsek&lt;/span&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=85;height=30;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontStyle=1;fontSize=14;" parent="eWLfMKaqJWTq2ZZ2_UdR-1" vertex="1">
           <mxGeometry x="5" y="110" width="885" height="580" as="geometry" />
         </mxCell>
-        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-4" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" edge="1" parent="eWLfMKaqJWTq2ZZ2_UdR-1" source="eWLfMKaqJWTq2ZZ2_UdR-6" target="eWLfMKaqJWTq2ZZ2_UdR-33">
+        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-4" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;startSize=8;endSize=8;entryX=0;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontStyle=1" parent="eWLfMKaqJWTq2ZZ2_UdR-1" source="eWLfMKaqJWTq2ZZ2_UdR-6" target="eWLfMKaqJWTq2ZZ2_UdR-33" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="60" y="370" as="sourcePoint" />
             <mxPoint x="333.75" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-5" value="1. Menekan Tombol Sign In" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" vertex="1" connectable="0" parent="eWLfMKaqJWTq2ZZ2_UdR-4">
+        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-5" value="1. Menekan Tombol Sign In" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontStyle=1" parent="eWLfMKaqJWTq2ZZ2_UdR-4" vertex="1" connectable="0">
           <mxGeometry x="0.0182" y="-2" relative="1" as="geometry">
             <mxPoint y="-17" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-6" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" vertex="1" parent="eWLfMKaqJWTq2ZZ2_UdR-1">
+        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-6" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontStyle=1;fontSize=14;" parent="eWLfMKaqJWTq2ZZ2_UdR-1" vertex="1">
           <mxGeometry x="50" y="320" width="10" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-7" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" vertex="1" parent="eWLfMKaqJWTq2ZZ2_UdR-1">
-          <mxGeometry x="333.75" y="190" width="50" height="450" as="geometry" />
+        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-7" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontStyle=1;fontSize=14;" parent="eWLfMKaqJWTq2ZZ2_UdR-1" vertex="1">
+          <mxGeometry x="313.75" y="190" width="50" height="450" as="geometry" />
         </mxCell>
-        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-8" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" vertex="1" parent="eWLfMKaqJWTq2ZZ2_UdR-7">
+        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-8" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontStyle=1;fontSize=14;" parent="eWLfMKaqJWTq2ZZ2_UdR-7" vertex="1">
           <mxGeometry x="20" y="130" width="10" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-9" value="Sign In Page" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" vertex="1" parent="eWLfMKaqJWTq2ZZ2_UdR-1">
-          <mxGeometry x="310" y="160" width="97.5" height="30" as="geometry" />
+        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-9" value="Sign In Page" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontStyle=1;fontSize=14;" parent="eWLfMKaqJWTq2ZZ2_UdR-1" vertex="1">
+          <mxGeometry x="290" y="160" width="97.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-10" value="Sign In Controller" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" vertex="1" parent="eWLfMKaqJWTq2ZZ2_UdR-1">
-          <mxGeometry x="473.75" y="160" width="92.5" height="30" as="geometry" />
+        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-10" value="Sign In Controller" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontStyle=1;fontSize=14;" parent="eWLfMKaqJWTq2ZZ2_UdR-1" vertex="1">
+          <mxGeometry x="440" y="160" width="92.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-11" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" edge="1" parent="eWLfMKaqJWTq2ZZ2_UdR-1" source="eWLfMKaqJWTq2ZZ2_UdR-8">
+        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-11" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;startSize=8;endSize=8;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontStyle=1" parent="eWLfMKaqJWTq2ZZ2_UdR-1" source="eWLfMKaqJWTq2ZZ2_UdR-8" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="390" y="440" as="sourcePoint" />
-            <mxPoint x="515" y="440" as="targetPoint" />
+            <mxPoint x="343.75" y="440" as="sourcePoint" />
+            <mxPoint x="481.25" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-12" value="4. Mengirim data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" vertex="1" connectable="0" parent="eWLfMKaqJWTq2ZZ2_UdR-11">
+        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-12" value="4. Mengirim data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontStyle=1;fontSize=14;" parent="eWLfMKaqJWTq2ZZ2_UdR-11" vertex="1" connectable="0">
           <mxGeometry x="-0.0841" y="1" relative="1" as="geometry">
             <mxPoint x="7" y="-9" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-13" value="5. Validation (False)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" edge="1" parent="eWLfMKaqJWTq2ZZ2_UdR-1" source="eWLfMKaqJWTq2ZZ2_UdR-21" target="eWLfMKaqJWTq2ZZ2_UdR-8">
+        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-13" value="5. Validation (False)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=14;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontStyle=1" parent="eWLfMKaqJWTq2ZZ2_UdR-1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="515.25" y="490" as="sourcePoint" />
-            <mxPoint x="334" y="490" as="targetPoint" />
+            <mxPoint x="481.25" y="470" as="sourcePoint" />
+            <mxPoint x="343.75" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-14" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" edge="1" parent="eWLfMKaqJWTq2ZZ2_UdR-1" source="eWLfMKaqJWTq2ZZ2_UdR-20" target="eWLfMKaqJWTq2ZZ2_UdR-23">
+        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-14" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;startSize=8;endSize=8;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontStyle=1" parent="eWLfMKaqJWTq2ZZ2_UdR-1" source="eWLfMKaqJWTq2ZZ2_UdR-20" target="eWLfMKaqJWTq2ZZ2_UdR-23" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="553.75" y="520" as="sourcePoint" />
-            <mxPoint x="788.25" y="520" as="targetPoint" />
+            <mxPoint x="520" y="520" as="sourcePoint" />
+            <mxPoint x="754.5" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-15" value="8. Validation (True)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" vertex="1" connectable="0" parent="eWLfMKaqJWTq2ZZ2_UdR-14">
+        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-15" value="8. Validation (True)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontStyle=1" parent="eWLfMKaqJWTq2ZZ2_UdR-14" vertex="1" connectable="0">
           <mxGeometry x="-0.0955" y="-1" relative="1" as="geometry">
             <mxPoint x="6" y="-16" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-16" value="9. Login Berhasil" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" edge="1" parent="eWLfMKaqJWTq2ZZ2_UdR-1">
+        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-16" value="9. Login Berhasil" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=14;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontStyle=1" parent="eWLfMKaqJWTq2ZZ2_UdR-1" edge="1" source="eWLfMKaqJWTq2ZZ2_UdR-23">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="705" y="549" as="sourcePoint" />
-            <mxPoint x="525" y="549" as="targetPoint" />
+            <mxPoint x="671.25" y="549" as="sourcePoint" />
+            <mxPoint x="491.25" y="549" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-17" value="6. Error" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" edge="1" parent="eWLfMKaqJWTq2ZZ2_UdR-1">
+        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-17" value="6. Error" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=14;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontStyle=1" parent="eWLfMKaqJWTq2ZZ2_UdR-1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="353.75" y="490" as="sourcePoint" />
-            <mxPoint x="60" y="490" as="targetPoint" />
+            <mxPoint x="333.75" y="480" as="sourcePoint" />
+            <mxPoint x="60" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-18" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" vertex="1" parent="eWLfMKaqJWTq2ZZ2_UdR-1">
+        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-18" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontStyle=1;fontSize=14;" parent="eWLfMKaqJWTq2ZZ2_UdR-1" vertex="1">
           <mxGeometry x="60" y="520" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-19" value="7. Kembali Ke Langkah awal" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" edge="1" parent="eWLfMKaqJWTq2ZZ2_UdR-1">
+        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-19" value="7. Kembali Ke Langkah awal" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontStyle=1;fontSize=14;" parent="eWLfMKaqJWTq2ZZ2_UdR-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="60" y="510" as="sourcePoint" />
             <Array as="points">
@@ -568,73 +568,73 @@
             <mxPoint x="70" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-20" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlControl;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" vertex="1" parent="eWLfMKaqJWTq2ZZ2_UdR-1">
-          <mxGeometry x="500" y="190" width="40" height="450" as="geometry" />
+        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-20" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlControl;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontStyle=1;fontSize=14;" parent="eWLfMKaqJWTq2ZZ2_UdR-1" vertex="1">
+          <mxGeometry x="466.25" y="190" width="40" height="450" as="geometry" />
         </mxCell>
-        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-21" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" vertex="1" parent="eWLfMKaqJWTq2ZZ2_UdR-20">
+        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-21" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontStyle=1;fontSize=14;" parent="eWLfMKaqJWTq2ZZ2_UdR-20" vertex="1">
           <mxGeometry x="15" y="130" width="10" height="310" as="geometry" />
         </mxCell>
-        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-22" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" vertex="1" parent="eWLfMKaqJWTq2ZZ2_UdR-1">
-          <mxGeometry x="690" y="190" width="40" height="450" as="geometry" />
+        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-22" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontStyle=1;fontSize=14;" parent="eWLfMKaqJWTq2ZZ2_UdR-1" vertex="1">
+          <mxGeometry x="612.5" y="190" width="40" height="450" as="geometry" />
         </mxCell>
-        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-23" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" vertex="1" parent="eWLfMKaqJWTq2ZZ2_UdR-22">
+        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-23" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontStyle=1;fontSize=14;" parent="eWLfMKaqJWTq2ZZ2_UdR-22" vertex="1">
           <mxGeometry x="15" y="320" width="10" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-24" value="Database" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" vertex="1" parent="eWLfMKaqJWTq2ZZ2_UdR-1">
-          <mxGeometry x="663.75" y="160" width="92.5" height="30" as="geometry" />
+        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-24" value="Database" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontStyle=1;fontSize=14;" parent="eWLfMKaqJWTq2ZZ2_UdR-1" vertex="1">
+          <mxGeometry x="586.25" y="160" width="92.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;exitX=1;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" edge="1" parent="eWLfMKaqJWTq2ZZ2_UdR-1" source="eWLfMKaqJWTq2ZZ2_UdR-21" target="eWLfMKaqJWTq2ZZ2_UdR-36">
+        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;exitX=1;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontStyle=1;fontSize=14;" parent="eWLfMKaqJWTq2ZZ2_UdR-1" source="eWLfMKaqJWTq2ZZ2_UdR-21" target="eWLfMKaqJWTq2ZZ2_UdR-36" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="390" y="625" as="targetPoint" />
+            <mxPoint x="356.25" y="625" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-26" value="10. Menampilkan Kepsek Page" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" vertex="1" connectable="0" parent="eWLfMKaqJWTq2ZZ2_UdR-25">
+        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-26" value="10. Menampilkan Kepsek Page" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontStyle=1;fontSize=14;" parent="eWLfMKaqJWTq2ZZ2_UdR-25" vertex="1" connectable="0">
           <mxGeometry x="0.0077" y="1" relative="1" as="geometry">
             <mxPoint x="4" y="-14" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-27" value="User" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" vertex="1" parent="eWLfMKaqJWTq2ZZ2_UdR-1">
+        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-27" value="User" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontStyle=1;fontSize=14;" parent="eWLfMKaqJWTq2ZZ2_UdR-1" vertex="1">
           <mxGeometry x="6.25" y="160" width="97.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-28" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" edge="1" parent="eWLfMKaqJWTq2ZZ2_UdR-1" target="eWLfMKaqJWTq2ZZ2_UdR-7">
+        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-28" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;startSize=8;endSize=8;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontStyle=1" parent="eWLfMKaqJWTq2ZZ2_UdR-1" target="eWLfMKaqJWTq2ZZ2_UdR-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="60" y="390" as="sourcePoint" />
             <mxPoint x="338.25" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-29" value="2. Mengisi Email dan Password" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" vertex="1" connectable="0" parent="eWLfMKaqJWTq2ZZ2_UdR-28">
+        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-29" value="2. Mengisi Email dan Password" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontStyle=1" parent="eWLfMKaqJWTq2ZZ2_UdR-28" vertex="1" connectable="0">
           <mxGeometry x="0.0182" y="-2" relative="1" as="geometry">
             <mxPoint x="24" y="-17" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-30" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;fontSize=12;startSize=8;endSize=8;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" edge="1" parent="eWLfMKaqJWTq2ZZ2_UdR-1" target="eWLfMKaqJWTq2ZZ2_UdR-7">
+        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-30" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;fontSize=14;startSize=8;endSize=8;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontStyle=1" parent="eWLfMKaqJWTq2ZZ2_UdR-1" target="eWLfMKaqJWTq2ZZ2_UdR-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="60" y="429.5" as="sourcePoint" />
             <mxPoint x="250" y="429.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-31" value="3. Menekan Tombol Login" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" vertex="1" connectable="0" parent="eWLfMKaqJWTq2ZZ2_UdR-30">
+        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-31" value="3. Menekan Tombol Login" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontStyle=1" parent="eWLfMKaqJWTq2ZZ2_UdR-30" vertex="1" connectable="0">
           <mxGeometry x="0.0182" y="-2" relative="1" as="geometry">
             <mxPoint x="24" y="-17" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-32" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" vertex="1" parent="eWLfMKaqJWTq2ZZ2_UdR-1">
+        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-32" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontStyle=1;fontSize=14;" parent="eWLfMKaqJWTq2ZZ2_UdR-1" vertex="1">
           <mxGeometry x="205.25" y="190" width="50" height="450" as="geometry" />
         </mxCell>
-        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-33" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" vertex="1" parent="eWLfMKaqJWTq2ZZ2_UdR-32">
+        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-33" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontStyle=1;fontSize=14;" parent="eWLfMKaqJWTq2ZZ2_UdR-32" vertex="1">
           <mxGeometry x="20" y="130" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-34" value="Homepage" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" vertex="1" parent="eWLfMKaqJWTq2ZZ2_UdR-1">
+        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-34" value="Homepage" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontStyle=1;fontSize=14;" parent="eWLfMKaqJWTq2ZZ2_UdR-1" vertex="1">
           <mxGeometry x="184" y="160" width="92.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-35" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" vertex="1" parent="eWLfMKaqJWTq2ZZ2_UdR-1">
-          <mxGeometry x="803.75" y="190" width="50" height="450" as="geometry" />
+        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-35" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontStyle=1;fontSize=14;" parent="eWLfMKaqJWTq2ZZ2_UdR-1" vertex="1">
+          <mxGeometry x="702.5" y="190" width="50" height="450" as="geometry" />
         </mxCell>
-        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-36" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" vertex="1" parent="eWLfMKaqJWTq2ZZ2_UdR-35">
+        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-36" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontStyle=1;fontSize=14;" parent="eWLfMKaqJWTq2ZZ2_UdR-35" vertex="1">
           <mxGeometry x="20" y="420" width="10" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-37" value="Kepsek Page" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;" vertex="1" parent="eWLfMKaqJWTq2ZZ2_UdR-1">
-          <mxGeometry x="780" y="160" width="97.5" height="30" as="geometry" />
+        <mxCell id="eWLfMKaqJWTq2ZZ2_UdR-37" value="Kepsek Page" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Segoe UI;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI;fontStyle=1;fontSize=14;" parent="eWLfMKaqJWTq2ZZ2_UdR-1" vertex="1">
+          <mxGeometry x="678.75" y="160" width="97.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
